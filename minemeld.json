@@ -1,0 +1,17 @@
+{
+    "version": "0.5",
+    "name": "MinerHtml",
+    "author": "Bartlomiej ZAJAC",
+    "author_email": "kontopierdoly1@wp.pl",
+    "description": "Sample MineMeld node extension",
+    "url": "https://github.com/ZAJU97/MinerHtml.git",
+    "entry_points": {
+        "minemeld_nodes": {
+            "MInerHtml.SiiSpider": "MinerHtml.node:SiiSpider",
+        },
+        "minemeld_prototypes": {
+            "MinerHtml.prototypes": "MinerHtml:prototypes"
+        }
+    },
+    "manifest_version": 0
+}

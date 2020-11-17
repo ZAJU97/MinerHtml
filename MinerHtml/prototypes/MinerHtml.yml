@@ -1,0 +1,24 @@
+url: https://github.com/ZAJU97/MinerHtml
+description: >
+  Sample extension for MineMeld.
+
+prototypes:
+  SiiSpider:
+    author: Bartlomiej ZAJAC
+    class: youtubeminer.Miner
+    development_status: EXPERIMENTAL
+    node_type: miner
+    indicator_types:
+      - URL
+    tags:
+      - extension
+      - htmlminer
+    description: >
+      Miner pobieracy dane z strony html
+
+        sudden_death: true
+        default: null
+      # flag indicators with share level green
+      attributes:
+        share_level: green
+
