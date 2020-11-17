@@ -7,7 +7,7 @@
     "url": "https://github.com/ZAJU97/MinerHtml.git",
     "entry_points": {
         "minemeld_nodes": {
-            "MInerHtml.SiiSpider": "MinerHtml.node:SiiSpider"
+            "MinerHtml.SiiSpider": "MinerHtml.node:SiiSpider"
         },
         "minemeld_prototypes": {
             "MinerHtml.prototypes": "MinerHtml:prototypes"
