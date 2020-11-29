@@ -7,11 +7,11 @@
     "url": "https://github.com/ZAJU97/MinerHtml.git",
     "entry_points": {
         "minemeld_nodes": {
-            "MinerHtml.SiiSpider": "MinerHtml.node:SiiSpider"
+            "MinerHtml.Htmlscraper": "MinerHtml.node:Htmlscraper"
         },
         "minemeld_prototypes": {
             "MinerHtml.prototypes": "MinerHtml:prototypes"
         }
     },
     "manifest_version": 0
-}
+} 
