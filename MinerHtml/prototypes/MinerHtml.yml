@@ -15,9 +15,9 @@ prototypes:
       - htmlminer
     description: >
       Miner pobieracy dane z strony html
-      age_out:
-        sudden_death: true
-        default: null
-      # flag indicators with share level green
-      attributes:
-        share_level: green
+    age_out:
+    sudden_death: true
+    default: null
+   # flag indicators with share level green
+    attributes:
+    share_level: green
