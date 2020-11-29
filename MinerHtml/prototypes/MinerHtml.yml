@@ -1,10 +1,10 @@
 url: https://github.com/ZAJU97/MinerHtml
 description: >
   Sample extension for MineMeld.
-
+  
 prototypes:
   Miner:
-    author: Bartlomiej ZAJAC
+    author: Bartlomiej Zajac
     class: MinerHtml.Miner
     development_status: EXPERIMENTAL
     node_type: miner
@@ -15,9 +15,9 @@ prototypes:
       - htmlminer
     description: >
       Miner pobieracy dane z strony html
-    age_out:
+      age_out:
         sudden_death: true
         default: null
       # flag indicators with share level green
       attributes:
-      share_level: green
+        share_level: green
