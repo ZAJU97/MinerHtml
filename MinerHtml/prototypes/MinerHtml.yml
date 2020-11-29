@@ -3,6 +3,7 @@ description: >
   Sample extension for MineMeld.
 
 prototypes:
+    Html:
     author: Bartlomiej ZAJAC
     development_status: EXPERIMENTAL
     node_type: miner
