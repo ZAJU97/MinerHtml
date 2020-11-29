@@ -5,8 +5,11 @@ description: >
 prototypes:
     Html:
     author: Bartlomiej ZAJAC
+      class: Html.Miner
     development_status: EXPERIMENTAL
     node_type: miner
+    indicator_types:
+      - any
     tags:
       - extension
       - htmlminer
