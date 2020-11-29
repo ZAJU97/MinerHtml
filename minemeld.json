@@ -4,7 +4,7 @@
     "author": "Bartlomiej ZAJAC",
     "author_email": "kontopierdoly1@wp.pl",
     "description": "Sample MineMeld node extension",
-    "url": "https://github.com/ZAJU97/MinerHtml.git",
+    "url": "https://github.com/ZAJU97/MinerHtml",
     "entry_points": {
         "minemeld_nodes": {
             "MinerHtml.Htmlscraper": "MinerHtml.node:Htmlscraper"
