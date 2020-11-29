@@ -2,7 +2,7 @@ import csv
 import requests
 from bs4 import BeautifulSoup
 
-class html:
+class Html:
 url = 'https://report.boonecountymo.org/mrcjava/servlet/SH01_MP.I00290s'
 response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
 html = response.content
