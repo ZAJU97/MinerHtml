@@ -1,6 +1,6 @@
 import scrapy 
 
-class Htmlscraper(scrapy.Spider): 
+class Miner(scrapy.Spider): 
     name = "planszoPajak" 
     start_urls = 'https://boardgamegeek.com/browse/boardgame?sort=rank&amp;rankobjecttype=subtype&amp;rankobjectid=1'
     download_delay = 5 
