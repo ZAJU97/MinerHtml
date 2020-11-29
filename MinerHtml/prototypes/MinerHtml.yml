@@ -5,7 +5,7 @@ description: >
 prototypes:
     Htmlscraper:
     author: Bartlomiej ZAJAC
-      class: MinerHtml.Htmlscraper
+    class: MinerHtml.Htmlscraper
     development_status: EXPERIMENTAL
     node_type: miner
     indicator_types:
@@ -15,7 +15,7 @@ prototypes:
       - htmlminer
     description: >
       Miner pobieracy dane z strony html
-
+    age_out:
         sudden_death: true
         default: null
       # flag indicators with share level green
