@@ -1,6 +1,6 @@
-import scrapy 
+import Scrapy 
 
-class SiiSpider(scrapy.Spider): 
+class SiiSpider(Scrapy.Spider): 
     name = "planszoPajak" 
     start_urls = ['https://boardgamegeek.com/browse/boardgame?sort=rank&amp;rankobjecttype=subtype&amp;rankobjectid=1'] 
     download_delay = 5 
