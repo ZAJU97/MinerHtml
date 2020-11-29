@@ -5,11 +5,8 @@ description: >
 prototypes:
   SiiSpider:
     author: Bartlomiej ZAJAC
-    class: MinerHtml.SiiSpider
     development_status: EXPERIMENTAL
     node_type: miner
-    indicator_types:
-      - URL
     tags:
       - extension
       - htmlminer
