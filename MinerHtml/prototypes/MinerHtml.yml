@@ -5,7 +5,7 @@ description: >
 prototypes:
     Htmlscraper:
     author: Bartlomiej ZAJAC
-    class: MinerHtml.Htmlscraper
+    class: MinerHtml.Miner
     development_status: EXPERIMENTAL
     node_type: miner
     indicator_types:
