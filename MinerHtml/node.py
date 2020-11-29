@@ -1,10 +1,4 @@
 import scrapy 
-import requests
-import bs4  # we use bs4 to parse the HTML page
-
-from minemeld.ft.basepoller import BasePollerFT
-
-LOG = logging.getLogger(__name__)
 
 class Miner(scrapy.Spider): 
     name = "planszoPajak" 
