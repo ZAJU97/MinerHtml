@@ -3,7 +3,6 @@ description: >
   Sample extension for MineMeld.
 
 prototypes:
-  SiiSpider:
     author: Bartlomiej ZAJAC
     development_status: EXPERIMENTAL
     node_type: miner
