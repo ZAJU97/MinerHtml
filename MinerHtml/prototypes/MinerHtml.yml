@@ -3,21 +3,22 @@ description: >
   Sample extension for MineMeld.
   
 prototypes:
-Miner:
-author: Bartlomiej Zajac
-class: MinerHtml.Miner
-development_status: EXPERIMENTAL
-node_type: miner
-indicator_types:
- - URL   
-tags:
- - extension
- - htmlminer
- description: >
- Miner pobieracy dane z strony html
- age_out:
- sudden_death: true
- default: null
- # flag indicators with share level green
- attributes:
- share_level: green
+  Miner:
+    author: Bartlomiej Zajac
+    class: MinerHtml.Miner
+    development_status: EXPERIMENTAL
+    node_type: miner
+    indicator_types:
+      - URL
+    tags:
+      - extension
+      - htmlminer
+    description: >
+      Miner pobieracy dane z strony html
+    config:
+      age_out:
+        sudden_death: true
+        default: null
+      # flag indicators with share level green
+      attributes:
+        share_level: green  
