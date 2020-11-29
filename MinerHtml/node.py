@@ -27,6 +27,3 @@ class SiiSpider(scrapy.Spider):
         y = script.find('"wiki":') 
         i['overview'] = script[(x+15):(y-2)].replace(',','') 
         yield i
-
-
-        return [[indicator, value]]
