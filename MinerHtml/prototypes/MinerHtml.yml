@@ -3,7 +3,7 @@ description: >
   Sample extension for MineMeld.
 
 prototypes:
-    scraper:
+    Htmlscraper:
     author: Bartlomiej ZAJAC
       class: MinerHtml.Htmlscraper
     development_status: EXPERIMENTAL
