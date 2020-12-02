@@ -9,16 +9,13 @@ prototypes:
     development_status: EXPERIMENTAL
     node_type: miner
     indicator_types:
-      - URL
+      - any
     tags:
       - extension
       - htmlminer
     description: >
       Miner pobieracy dane z strony html
     config:
-      age_out:
-        sudden_death: true
-        default: null
-      # flag indicators with share level green
       attributes:
         share_level: green  
+        
